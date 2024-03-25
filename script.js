@@ -94,3 +94,12 @@ const heart2 = document.querySelector(".heart2")
 body.addEventListener("click", function(){
     heart2.style.color= "red"
 })
+
+const cursur = document.querySelector(".cursur")
+
+body.addEventListener("mousemove", function(dets) {
+    cursur.style.left = dets.x+"px"
+    cursur.style.top = dets.y+"px"
+
+    
+})

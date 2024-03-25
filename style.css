@@ -129,3 +129,14 @@ width: 100%;
     background-position: center;
 }
 
+
+
+.cursur{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    mix-blend-mode: difference;
+    transition: all linear 0.2s;
+}
